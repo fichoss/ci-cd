@@ -1,6 +1,6 @@
 alembic==1.13.1
 annotated-types==0.7.0
-anyio==4.11.0
+anyio==4.9.0
 attrs==25.3.0
 Authlib==1.6.4
 blinker==1.9.0
