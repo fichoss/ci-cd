@@ -1,0 +1,9 @@
+name: Telco-Churn-MLProject
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      data_path: {type: str, default: "telco_preprocessing"}
+      random_seed: {type: int, default: 42}
+    command: "python modelling.py --data_path {data_path} --random_seed {random_seed}"
